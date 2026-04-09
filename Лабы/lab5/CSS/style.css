@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0 450px;
+  margin-top: 50px;
+}
+
+.art {
+  color: gray;
+  font-size: 14px;
+}
+
+.cost {
+display: flex;
+margin-bottom: 30px;
+align-items: center;
+}
+
+.old-cost {
+  text-decoration: line-through;
+  color: rgb(180, 180, 180);
+  margin-left: 20px;
+  font-size: 18px;
+}
+.old-cost_mini {
+  text-decoration: line-through;
+  color: rgb(180, 180, 180);
+  /*margin-left: 20px;*/
+  font-size: 16px;
+}
+
+.button-box {
+display: flex;
+}
+
+.mini_button-box {
+  display: flex;
+  margin-bottom: 15px;
+  max-width: 200px;
+}
+
+.mini_button-box img {
+  margin-bottom: 0;
+  margin-right: 10px;
+  width: 50px;
+}
+
+.mini_button-box + .mini_button-box {
+  margin-left: 20px;
+}
+
+#bigCard {
+margin-bottom: 20px;
+}
+
+.new-cost {
+  font-size: 24px;
+  font-weight: bold;
+}
+.new-cost_mini {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  padding: 15px 5px;
+  border: none;
+  background-color: #9A6879;
+  margin-bottom: 50px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.ozer-cards {
+  display: flex;
+}
+
+.ozer-card {
+  max-width: 225px;
+  align-items: center;
+  margin: 10px;
+}
+
+.ozer-card img {
+  max-width: 225px;
+  margin-bottom: 10px;
+  filter: blur(2px);
+  
+}
+
+.cost-ozer-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vinipuh {
+  min-height: 48px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.sale {
+  margin-left: auto;
+  background-image: url('discount-icon-20.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding:5px 15px 10px 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+
+
+thead {
+  background-color: #fae1e1;
+  font-weight: bold;
+}
+
+table td {
+  border: solid 1px #8b8b8b;
+  padding: 10px;
+}
+
+#ars {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
+.favorite-icon:hover {
+  filter: invert(27%) sepia(92%) saturate(7488%) hue-rotate(356deg) brightness(94%) contrast(97%);
+}
+
+
+.compare-icon:hover {
+  filter: invert(29%) sepia(95%) saturate(2476%) hue-rotate(217deg) brightness(93%) contrast(91%);
+}
+
+.ozer-card img:hover {
+  filter: none;
+}
+
+
+

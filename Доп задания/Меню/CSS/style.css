@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+/* 
+  Блок бок меню
+*/
+
+body {
+  margin: 0;
+  display: flex;
+}
+
+aside {
+  max-width: 15%;
+  background-color: rgb(221, 221, 221);
+  min-width: 230px;
+}
+
+input {
+  background-color: transparent;
+  max-width: 80%;
+  border: 0;
+  font-size: 20px;
+}
+
+.back_arr {
+  margin-left: auto;
+  rotate: 180deg;
+  max-width: 37px;
+  max-height: 37px;
+}
+
+.kat {
+  display: flex;
+  align-items: center;
+}
+
+.kat p {
+  margin: 15px;
+}
+
+.serch_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px #000000;
+  margin-bottom: 20px;
+}
+
+#loops {
+  max-width: 10%;
+  max-height: 10%;
+  padding: 5px;
+  /*margin-top: 50%;*/
+  rotate: 270deg;
+  opacity: 0.5;
+}
+
+
+/* 
+  глав меню
+*/
+
+/* 
+Меню навигации
+*/
+main {
+  flex: 1; /*что бы растинуть на фул */
+}
+
+nav {
+  background-color: #72B2BD;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+nav * {
+color: #fff;
+}
+
+.siti {
+display: flex;
+align-items: center;
+}
+
+.siti p {
+  margin: 0;
+
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons  *{
+  padding: 0 20px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info p {
+  margin: 0;
+}
+
+.info * {
+  padding: 0 10px;
+}
+
+.buttons p {
+  margin: 0;
+}
+
+.siti img{
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.info img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.buttons p:hover {
+  opacity: 0.5;
+  font-size: 24px;
+}
+
+.siti:hover {
+  opacity: 0.5;
+}
+
+.info *:hover{
+  opacity: 0.5;
+}
+
+.main-box {
+display: flex;
+}
+
+.main-box img {
+  max-width: 75%;
+}
+
+.left-main-box {
+  background-color: #395778;
+  width: 25%;
+}
+
+.big-tex{
+  color: #fff;
+  font-size: 100px;
+     transform: rotate(90deg);
+    transform-origin: left top; 
+    display: inline-block; 
+    margin: 0;
+    margin-left: 100px;
+    text-transform: uppercase;
+}
+
+.btn {
+  display: inline-block;
+color: #fff;
+font-size: 24px;
+text-transform: uppercase;
+padding: 5px 20px;
+border: solid 2px #fff;
+border-radius: 2px;
+margin-top: 70%;
+margin-left: 50%;
+}
+
+.slider-box img {
+max-width: 50px;
+max-height: 60px;
+}
+
+.slider-box {
+margin-left: 65%;
+margin-top: 25%;
+}
+

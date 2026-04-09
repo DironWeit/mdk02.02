@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Лабораторная работа №6. Форма</title>
+</head>
+
+<body>
+
+  <main>
+    <h1>Анкета участника</h1>
+    <p id="ferst-text" class="text-gray">Запоните анкету, чтобы мы лучше узнали ваши интересы и могли подобрать
+      подходящий формат обучения.</p>
+    <form action="">
+      <fieldset>
+        <legend>Контактные данные</legend>
+        <p class="text-zagalovok">ФИО *</p>
+        <label>
+          <span class="text">
+            <input class="input-size" type="text" placeholder="Иванов Иван Иванович" required>
+          </span>
+        </label>
+
+        <p class="text-zagalovok">Email *</p>
+        <label>
+          <span class="text">
+            <input class="input-size" type="email" placeholder="example@mail.com" required>
+          </span>
+        </label>
+
+        <p class="text-zagalovok">Телефон</p>
+        <label>
+          <span class="text">
+            <input class="input-size" type="tel" placeholder="+7XXXXXXXXXX" pattern="^\+7\d{10}$">
+          </span>
+        </label>
+        <p class="fqa-title">* обязательные поля</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Общая информация</legend>
+        <p class="text-zagalovok">Возраст *</p>
+        <label>
+          <span class="text">
+            <input class="input-size" type="number" placeholder="18" min="14" max="99" required>
+          </span>
+        </label>
+
+        <p class="text-zagalovok">Дата рождения</p>
+        <label>
+          <span class="text">
+            <input class="input-size" type="date">
+          </span>
+        </label>
+
+        <p class="text-zagalovok">Город</p>
+        <label>
+          <span class="text">
+            <input class="input-size" type="text" placeholder="Начните вводить..." list="citySpisok">
+            <datalist id="citySpisok">
+              <option value="КСТОВО"></option>
+              <option value="Нижний Новгород"></option>
+              <option value="Казань"></option>
+              <option value="Сочи"></option>
+              <option value="Москва"></option>
+              <option value="Курск"></option>
+            </datalist>
+          </span>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Вопросы анкеты</legend>
+        <div class="mini-box">
+          <p class="text-zagalovok">Как вы узнали о нас?</p>
+          <p><input class="input-box" type="radio" name="tr" id="">Друзья</p>
+          <p><input class="input-box" type="radio" name="tr" id="">Соцсети</p>
+          <p><input class="input-box" type="radio" name="tr" id="">Реклама</p>
+          <p><input class="input-box" type="radio" name="tr" id="">Сайт</p>
+          <p><input class="input-box" type="radio" name="tr" id="">Другое</p>
+        </div>
+
+        <div class="mini-box">
+          <p class="text-zagalovok">Какие темы вам интересы? (Можно несколько)</p>
+          <p><input class="input-box" type="checkbox" name="" id="">HTML</p>
+          <p><input class="input-box" type="checkbox" name="" id="">CSS</p>
+          <p><input class="input-box" type="checkbox" name="" id="">JavaScript</p>
+          <p><input class="input-box" type="checkbox" name="" id="">Веб-дизайн</p>
+          <p><input class="input-box" type="checkbox" name="" id="">Другое</p>
+          <p><input class="input-box" type="checkbox" name="" id="">Тестирование</p>
+        </div>
+
+        <p class="text-zagalovok">Уровень подготовки</p>
+        <label class="bold">
+          <select class="input-size bold" name="" id="">
+            <option selected value="">Новичок</option>
+            <option value="">Базовый</option>
+            <option value="">Уверенный</option>
+            <option value="">Продвинутый</option>
+          </select>
+        </label>
+
+        <p class="text-zagalovok">Оцените интерес к обучению (0-10)</p>
+        <input class="input-size" type="range" name="" id="polzunok" min="1" max="10" step="1" value="5">
+
+        <p class="text-zagalovok">Комментарий</p>
+        <textarea class="input-size" name="" id="" placeholder="Напишите пару слов..."></textarea>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Согласие</legend>
+        <label>
+          <p id="fqa"><input class="input-box" type="checkbox" name="" id="" required>Я согласен(на) на обработку данных *</p>
+        </label>
+        <p class="fqa-title">Без согласия форма не отправится.</p>
+      </fieldset>
+
+      <div class="butoons_bottom">
+        <input class="but active" type="submit" value="Отправить">
+        <input class="but" type="reset" value="Очистить">
+      </div>w
+
+
+    </form>
+  </main>
+
+</body>
+
+</html>

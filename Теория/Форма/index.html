@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Форма</title>
+</head>
+
+<body>
+
+  <div class="anketa">
+    <h1>Анкета</h1>
+    <div class="search">
+      <input type="search" name="" id="" placeholder="Поиск направления" list="citySpisok">
+      <img src="RES/ICON/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+      <datalist id="citySpisok">
+        <option value="КСТОВО"></option>
+        <option value="Нижний Новгород"></option>
+        <option value="Казань"></option>
+        <option value="Сочи"></option>
+        <option value="Москва"></option>
+      </datalist>
+    </div>
+    <form action="">
+      <fieldset>
+        <legend>Личные данные</legend>
+        <label>
+          <span class="text">Имя </span>
+          <input type="text" name="" placeholder="Имя" required>
+        </label>
+        <label>
+          <span class="text">Фамилия</span>
+          <input type="text" name="" placeholder="Фамилия" required>
+        </label>
+        <label>
+          <span class="text">Дата рождения</span>
+          <input type="date" name="" id="" required>
+        </label>
+
+      </fieldset>
+
+
+      <fieldset>
+        <legend>Аккаунт</legend>
+        <label>
+          <span class="text">E-mail </span>
+          <input type="email" name="" placeholder="E-mail" required>
+        </label>
+        <label>
+          <span class="text">Пароль </span>
+          <input type="password" name="" placeholder="Пароль не менее 7 символов" required pattern="[A-Za-z0-9]{7,}" >
+        </label>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Оформление путевки</legend>
+        <label>
+          <span class="text">Город </span>
+          <select name="" id="">
+            <option value="">КСТОВО</option>
+            <option value="">Нижний Новгород</option>
+            <option value="">Казань</option>
+            <option value="">Сочи</option>
+            <option selected value="">Москва</option>
+          </select>
+        </label>
+        <label>
+          <span class="text">Количество человек </span>
+          <input type="number" name="" placeholder="Количество человек" min="1" max="20" step="1">
+        </label>
+
+        <label>
+          <span class="text">Доп услуги</span>
+          <p><input type="checkbox" name="" id="">Трансфер</p>
+          <p><input checked type="checkbox" name="" id="">Страховка</p>
+          <p><input type="checkbox" name="" id="">Ланч бокс</p>
+        </label>
+
+        <label>
+          <span class="text">Транспорт</span>
+          <p><input checked type="radio" name="tr" id="">Самолет</p>
+          <p><input type="radio" name="tr" id="">Поезд</p>
+          <p><input type="radio" name="tr" id="">Автобус</p>
+        </label>
+
+        <label>
+          <span class="text">Документы</span>
+
+          <input type="file" name="" id="fwaa">
+        </label>
+
+        <textarea name="" id="">
+          
+        </textarea>
+
+      </fieldset>
+
+      <div class="butoons_bottom">
+        <input type="reset" value="Очистить">
+        <input type="submit" value="Отправить">
+      </div>
+
+
+    </form>
+  </div>
+
+</body>
+
+</html>

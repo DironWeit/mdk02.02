@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: rgb(73, 73, 73);
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  background-color: #dbdbdb;
+}
+
+main {
+  width: 30%;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.text-gray {
+  color: rgb(71, 71, 71);
+}
+
+#ferst-text {
+  margin-bottom: 20px;
+}
+
+input {}
+
+.input-size,
+select {
+  border: solid 2px #dbdbdb;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.text-zagalovok {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+fieldset {
+  border: solid 1px #dbdbdb;
+  border-radius: 10px;
+}
+
+fieldset+fieldset {
+  margin-top: 20px;
+}
+
+.mini-box {
+  border: solid 1px #e7e7e7;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#polzunok {
+  accent-color: rgb(105, 105, 253);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.mini-box p {
+  margin: 5px 0;
+}
+
+
+.mini-box+.mini-box {
+  margin-top: 20px;
+}
+
+.mini-box .text-zagalovok {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+
+#fqa {
+  font-size: 18px;
+}
+
+.fqa-title {
+  font-size: 16px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.input-box {
+  margin: 5px;
+  margin-right: 15px;
+}
+
+.butoons_bottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.but {
+  margin: 0 10px;
+  border: solid 1px #dbdbdb;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.active {
+  background-color: rgb(105, 105, 253);
+  border: none;
+  color: #fff;
+}

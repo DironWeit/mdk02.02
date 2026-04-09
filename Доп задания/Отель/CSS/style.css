@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+}
+
+/*
+  Сброс
+*/
+
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+}
+
+main {
+  background-color: #F6F5FA;
+}
+
+img {
+  max-width: 400px;
+}
+
+figure {
+display: flex;
+background-color: #ffffff;
+margin: 15px;
+border-radius: 20px;
+}
+
+.big-box {
+  display: flex;
+  width: 100%;
+  margin-left: 15px;
+}
+
+.icon {
+  max-width: 18px;
+  margin-right: 5px;
+}
+
+.mark-item {
+display: flex;
+}
+
+.mark-box {
+display: flex;
+}
+
+.teg-box {
+display: flex;
+}
+
+aside {
+  margin-top: 70px;
+  margin-left: 20px;
+  width: 13%;
+}
+
+aside h3 {
+  margin-bottom: 80px;
+}
+
+aside ul li input {
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+main {
+  margin-top: 50px;
+}
+
+main {
+width: 70%;
+}
+
+.info-box h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}
+
+.info-box {
+  max-width: 64%;
+  margin-right: 10%;
+}
+
+.mark-item {
+  margin-right: 15px;
+}
+
+.mark-box {
+  margin-bottom: 15px;
+}
+
+.teg-box p {
+  margin-bottom: 80px;
+  font-size: 16px;
+  padding: 5px;
+  background-color: #F5F5FD;
+  margin-right: 7px;
+}
+
+span {
+  color: #d8454c;
+  font-weight: bold;
+}
+
+.cost-box {
+  width: 100%;
+}
+
+.cost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 200px;
+    
+    /* Добавляем отступы по бокам */
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    /* Ограничиваем максимальную ширину самого блока */
+    max-width: 400px;
+    margin: 0 auto; /* Центрируем сам блок на странице */
+}
+
+button {
+  background-color: #4837D1;
+  color: #ffffff;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cost p {
+  margin-bottom: 10px;
+}

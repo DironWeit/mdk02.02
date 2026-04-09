@@ -1,0 +1,45 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');*/
+
+:root {
+  /*font-family: 'Roboto';*/
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.blok {
+  width: 18%;
+  text-align: center;
+}
+
+.b1 {
+  background-color: #ff7d7d;
+  height: 100px;
+}
+.b2 {
+  background-color: #94ff86;
+  height: 150px;
+}
+.b3 {
+  background-color: #979eff;
+  height: 130px;
+}
+.b4 {
+  background-color: #ffb787;
+  height: 50px;
+}
+.b5 {
+  background-color: #8dfbff;
+  height: 110px;
+}
+
+main {
+  border: 1px solid rgb(255, 0, 0);
+  display: flex;
+  /*flex-direction: column;*/
+  height: 800px;
+  justify-content: space-between;
+  /*align-items: center;*/
+  flex-wrap: wrap;
+
+}

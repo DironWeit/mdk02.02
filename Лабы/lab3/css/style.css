@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+html {scroll-behavior: smooth;}
+:root {
+
+  --color_grean: rgb(36, 185, 136);
+  --color_grean_brown: rgb(31, 161, 118);
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+
+
+/* Общий стиль ссылок */
+a {
+  text-decoration: none;
+}
+/* Первый блок */
+.menu-gorizontalone{
+  padding: 10px;
+  margin: 5px;
+}
+.menu-gorizontalone a{
+  background-color: var(--color_grean);
+  border: solid 2px var(--color_grean);
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+}
+.menu-gorizontalone a:hover{
+  background-color: #fff;
+  color: var(--color_grean);
+  border: solid 2px var(--color_grean);
+}
+/* Второй блок */
+.menu-vertical {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.menu-vertical a {
+  background-color: var(--color_grean);
+  color: #fff;
+  border: solid 2px var(--color_grean);
+  margin: 3px 0;
+  padding: 5px 0px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.menu-vertical a:hover {
+  background-color: #fff;
+  color: var(--color_grean);
+  border: solid 2px var(--color_grean);
+  transition: all 0.45s;
+}
+
+.menu-vertical a:active {
+  background-color: #fff;
+  color: var(--color_grean);
+  border: solid 2px var(--color_grean);
+  
+}
+
+/* Третий блок */
+.menu-gorizontaltwo{
+  background-color: var(--color_grean);
+  margin-top: 50px;
+  padding: 10px 0px;
+  max-width: 50%;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-gorizontaltwo a{
+  background-color: var(--color_grean);
+  margin: 10px 10px;
+  padding: 10px 10px;
+  color: #fff;
+  
+}
+.menu-gorizontaltwo a:hover{
+  background-color: var(--color_grean_brown);
+  font-size: 30px;
+  transition: all 1s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1), none ;
+}

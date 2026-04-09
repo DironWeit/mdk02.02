@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+body{
+  margin: 40px 80px;
+}
+
+ul {
+margin: 0px;
+}
+
+.bold-text-span{
+  font-weight: 800;
+}
+
+#marg {
+margin-top: 40px;
+}
+
+.my-ferst-str{
+  text-shadow: 1px 1px 2px #000;
+  font-family: 'Marck Script';
+  text-align: center;
+  padding: 50px 0px 0px 0px ;
+}
+
+.otstup-gray{
+  margin: 50px 0px 0px 50px ;
+  color: gray;
+}
+
+#red-text {
+color: brown;
+font-weight: 600;
+}
+
+#sub-line{
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#under-red-line{
+  font-size: 24px;
+  text-decoration: underline dotted;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 3px;
+  text-decoration-color: red;
+}
+
+#not-marg {
+  margin: 20px 0px 0px 0px;
+}
+
+.midle-big-text{
+  margin-top: 50px;
+color: #05699A;
+line-height: 2.5;
+}
+
+.title-text{
+font-family: 'Montserrat';
+text-decoration: underline;
+text-underline-offset: 2px;
+text-decoration-color: #AAAAAA;
+}
+
+.spisock li {
+    line-height: 2;
+}
+
+#ferst-decoration {
+  color: #3C0EFF;
+}
+
+#thre-decor{
+  color: #C9E56C;
+}
+
+#five-decor{
+  color: #E058FF;
+}
+
+.li-color{
+  color: #05699A;
+}
+
+#footer-text{
+  margin-top: 20px;
+  font-size: 14px;
+  color: gray;
+}

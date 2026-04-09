@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+html {scroll-behavior: smooth;}
+
+body {
+  background-color: #EEEEEE;
+}
+
+:root {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+}
+
+nav {
+  background-color: #AB0101;
+  padding: 10px 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 20px;
+  padding: 10px;
+}
+
+nav img {
+  margin-left: auto;
+  width: 1.7%;
+  padding: 5px;
+}
+
+
+
+main {
+  background-color: #fff;
+  width: 90%;
+  margin: 40px auto;
+  border-radius: 20px;
+}
+
+#big-red-text {
+  color: #AB0101;
+  font-size: 30px;
+  margin-left: 20%;
+  padding-top: 2%;
+}
+
+.big-card {
+  display: flex;
+}
+
+.big-card img {
+  margin: 80px;
+}
+
+.info-tab {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.fers-text_in_info-tab p{
+  margin-right: 20%;
+  color: gray;
+}
+
+.second-text_in_info-tab p {
+  color: gray;
+  font-weight: bold;
+}
+
+#long_text {
+  margin-left: 80px;
+  max-width: 75%;
+  color: rgb(131, 130, 130);
+  line-height: 1.5;
+  margin-bottom: 80px;
+  font-size: 18px;
+}
+
+.ozer-cards-box {
+  display: flex;
+  margin-left: 80px;
+}
+
+.mini-card {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.mini-card img {
+  width: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  filter: brightness(60%);
+}
+
+.mini-card button {
+  padding: 10px 20px;
+  background-color: #e96474;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+
+  margin-bottom: 80px;
+}
+
+a:hover {
+  transition: all 0.45s;
+  background-color: #e96474;
+  border-radius: 20px;
+}
+
+nav img:hover {
+  transition: all 0.45s;
+  background-color: #e96474;
+  border-radius: 20px;
+}
+
+main button:hover {
+  transition: all 0.45s;
+  background-color: #AB0101;
+  border-radius: 50px;
+
+}
+
+@supports selector(:has(*)) {
+  .mini-card:has(button:hover) img {
+    filter: brightness(100%);
+  }
+}
+
+.mini-card img:hover {
+  filter: brightness(100%);
+}
