@@ -246,10 +246,15 @@ footer {
   align-items: center;
 }
 
+.not-bold {
+  font-weight: normal;
+}
+
 .blok1 {
-  width: 33%;
+  width: 37.5%;
 }
 .blok2 {
+  /*margin-left: 50px*/
   text-align: center;
   width: 33%;
 }
@@ -319,5 +324,9 @@ nav a:hover {
 
 .active_tod {
   background-color: #D91E2E;
+}
+
+.gc {
+  color: #646464;
 }
 
