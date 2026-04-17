@@ -135,7 +135,12 @@ nav a{
 }
 
 .card {
-  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 5px 10px 10px #0000002c;
+  width: 20%;
+  min-width: 250px;
   background-color: #fff;
   padding: 5px;
   border-radius: 30px;
@@ -161,8 +166,8 @@ nav a{
 .tumbler {
   display: inline-flex;
   gap: 6px;
-  padding: 4px;
-  margin: 0 50px;
+  /*padding: 4px;*/
+  margin: 0 auto;
   margin-top: 15px;
   background: #dfe5eb;
   border-radius: 100px;
@@ -172,7 +177,7 @@ nav a{
   margin: 0;
   padding: 6px 14px;
   border-radius: 999px;
-  color: #000000;
+  /*color: #000000;*/
   font-size: 14px;
 }
 
@@ -296,4 +301,23 @@ nav a:hover {
   color: #000000;
 }
 
+.tods {
+  margin-top: -40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tod {
+  background-color: #9CA3AF;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.active_tod {
+  background-color: #D91E2E;
+}
 
